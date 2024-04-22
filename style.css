@@ -1,0 +1,70 @@
+body {
+  background-image: url(blackhole.gif);
+  background-size: cover;
+}
+
+.linkTree {
+  width: 400px;
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.burger {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.lonceng {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: black;
+}
+.photoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.photoProfile {
+  border-radius: 250px;
+}
+h4 {
+  color: white;
+}
+
+button {
+  width: 100%;
+  margin: 5px;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover {
+  color: black;
+
+}
